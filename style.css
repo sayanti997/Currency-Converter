@@ -26,6 +26,9 @@ body{
     
     #tag{
         font-size: 22px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
     }
     .msg{
         font-size: 16px;
@@ -51,6 +54,9 @@ body{
 
     #tag{
         font-size: 26px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
     }
 }
 
