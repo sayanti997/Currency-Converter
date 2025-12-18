@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg , #415A77, #0D1B2A, #415A77);
+
+}
+.container{
+    background-color: #415A77;
+    padding:40px ;
+    border-radius: 14px;
+    min-height: 45vh;
+    width: 90%;
+    max-width: 300px;
+}
+
+@media (max-width: 480px) {
+    .container{
+        padding: 25px;
+    }
+    
+    #tag{
+        font-size: 22px;
+    }
+    .msg{
+        font-size: 16px;
+    }
+    .dropdown{
+        flex-direction: column;
+        gap: 15px;
+    }
+    .select_container{
+        width: 100%;
+        justify-content: space-around;
+    }
+    form button{
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .container{
+        width: 80%;
+    }
+
+    #tag{
+        font-size: 26px;
+    }
+}
+
+#tag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-size: 30px;
+    
+}
+
+p{
+    font-size: 20px;
+}
+
+
+form{
+   margin: 2rem 0 1rem 0;
+}
+
+form select, button, input{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius:4px;
+}
+form input{
+    border: 1px solid #778DA9;
+    font-size: 20px;
+    height: 2.5rem;
+    padding-left: 10px;
+    text-align: justify;
+}
+
+form input:hover{
+box-shadow:0 4px 12px #1B263B;
+}
+
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.dropdown i{
+    margin-top: 1.5rem;
+    font-size: larger;
+}
+
+.select_container img{
+width: 30px;
+height: auto;
+}
+
+.select_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid lightgray;
+    border-radius: 12px;
+    width:6rem ;
+    margin-top: 0.55rem;
+}
+
+.select_container select{
+    font-size: 0.95rem;
+    max-width: 100%;
+    width: auto;
+    transition: tranform 0.3s;
+    cursor:pointer;
+}
+
+.select_container select:hover{
+    box-shadow:0 4px 12px #1B263B;
+    transform: scale(1.05);
+}
+.msg{
+    margin: 2.2rem 0 2.2rem 0;
+    font-size: larger;
+    color: aliceblue;
+}
+
+form button{
+    height: 3rem;
+    border-radius: 10px;
+    background-color: #0D1B2A;
+    font-size: 1.12rem;
+    color: aliceblue;
+    transition: tranform 0.4s;
+    cursor: pointer;
+
+}
+
+form button:hover{
+    transform: scale(1.05);
+    box-shadow:0 4px 12px #1B263B;
+}
+
+
