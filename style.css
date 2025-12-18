@@ -19,6 +19,33 @@ body{
     max-width: 300px;
 }
 
+@media (max-width: 250px) {
+    .container{
+        padding: 20px;
+    }
+    
+    #tag{
+        font-size: 10px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+    }
+    .msg{
+        font-size: 14px;
+    }
+    .dropdown{
+        flex-direction: column;
+        gap: 15px;
+    }
+    .select_container{
+        width: 100%;
+        justify-content: space-around;
+    }
+    form button{
+        font-size: 1rem;
+    }
+}
+
 @media (max-width: 480px) {
     .container{
         padding: 25px;
@@ -65,7 +92,7 @@ body{
     justify-content: center;
     align-items: center;
     color: aliceblue;
-    font-size: 30px;
+    
     
 }
 
